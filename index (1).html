@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca14ec59eb.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <p class="nav">PAYROLL MANAGEMENT SYESTEM</p>
+    <ul>
+        <li><a href="#Home"><i class="fa-solid fa-house icon"></i>Home</a> </li>
+        <li><a href="#Employee"><i class="fa-regular fa-user icon"></i>Employee</a> </li>
+        <li><a href="#Salary"><i class="fa-solid fa-dollar-sign icon"></i>Salary</a> </li>
+        <li><a href="#Account"><i class="fa-regular fa-user icon"></i>Account</a> </li>
+        <li><a href="#Branch"><i class="bi bi-bank icon"></i>Branch</a></li>
+    </ul>
+    <div>
+        <div class="Shark">
+            <img src="Company Logo.jpg" class="logo">
+        </div>
+        <section id="Home">
+            <div class="container">
+                <a href="index1.html"><button class="Designation" id="person"> Designation</button></a>
+                <a href="index2.html"><button class="Branch" id="person">Add Branch</button></a>
+                <a href="index4.html"><button class="Basic" id="person">Basic Salary</button></a>
+                <a href="index3.html"><button class="New Employee" id="person">Add New Employee</button></a>
+
+               
+            </div>
+        </section>
+        <section class="Per-Employee" id="Employee">
+            <div class="container1">
+                <form id="form">
+                <label class="change" for="username">username:</label>
+                <input type="text" class="Employee change" id="username" placeholder="Name" required>
+
+                <label class="change" for="BranchCode">branch code:</label>
+                <input type="number" class="Employee change" id="BranchCode" placeholder="Number" required><br><br>
+
+                <label class="change" for="fname">father name:</label>
+                <input type="text" class="Employee change" id="fname" placeholder="Name" required><br>
+                <br>
+               
+                <label class="change" for="phonenumber">Phonenumber:</label>
+                <input type="tel" class="Employee change" id="phonenumber" placeholder="0000-0000000" pattern="[0-3]{4}-[0-9]{7}"required>
+                <br>
+                <label class="change" for="datejoining">Date Of Joining:</label>
+                <input type="date"  id="datejoining" placeholder="Date" class="Employee change" required><br>
+                <br>
+                <input type="submit" value="submit">
+                <input type="reset" value="clear">
+                </form>
+            </div>
+        </section>
+        <section id="Salary">
+            <div class="container3">
+                <div class="row-no-gutters">
+                    <h2 class="type1">Add Allowances & Bonus</h2>
+                            <label for="Employee Name" id="basic">Employee Name</label>
+                    <input type="text" id="basic" placeholder="text" required>
+                    <label for="basic salary" id="basic">Basic Salary</label>
+                    <input type="text" class="basic" id="basic" placeholder="number" required>
+                    <label for="allowance" id="basic">Allowance Amount</label>
+                    <input type="number" class="allowance" id="basic" placeholder="number" required>
+                    <label for="Bonous" id="basic">Bonous Amount</label>
+                    <input type="number" class="Bonous" id="basic" placeholder="number" required>
+                    <label for="Medical" id="basic">Medical Allowance</label>
+                    <input type="number" class="Medical" id="basic" placeholder="number" required>
+                    <label for="Graduity" id="basic">Graduity</label>
+                    <input type="number" class="Graduity" id="basic" placeholder="number" required>
+                    <label for="Communication" id="basic">Communication </label>
+                    <input type="number" class="Communication" id="basic" placeholder="number" >
+                    <label for="POL" id="basic">POL </label>
+                    <input type="number" class="POL" id="basic" placeholder="number" >
+                    <label for="Transportation" id="basic">Transportation Allowance </label>
+                    <input type="number" class="Transportation" id="basic" placeholder="number" >
+                        </div>
+                    <h2 class="type1">Salary Deduction</h2>
+                            <label for="Advance" id="basic">Advance Salary</label>
+                            <input type="number" class="Advance" id="basic" placeholder="number" required>
+                            <label for="EOBI" id="basic">EOBI</label>
+                            <input type="number" class="EOBI" id="basic" placeholder="number" required>
+                            <label for="Insurance" id="basic">Insurance </label>
+                    <input type="number" class="Insurance" id="basic" placeholder="number" >
+                    <label for="Without Leave" id="basic">Leave Deduction </label>
+                    <input type="number" class="Without" id="basic" placeholder="number" >
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <section id="Account">
+            <div class="container-account">
+                <form id="form1">
+                <!-- <label for="Employee Account" class="Per-Account change">Employee Account:</label>
+                <input type="number" id="A-Employee" class="Employee" placeholder="Ab1****" minlength="8" maxlength="12">   
+                <label for="Add Insurance" class="Per-Account change">Insurance Amount:</label>
+                <input type="number" id="A-Employee" class="Employee" placeholder="number" required>
+                <label for="Organization Contribution" class="Per-Account change">Organization Contribution:</label>
+                <input type="number" id="A-Employee" class="Employee" placeholder="number" required>
+                <label for="Medical" class="Per-Account change">Medical Allowance:</label>
+                <input type="number" id="A-Employee" class="Employee" placeholder="number" required><br>
+                <br>
+                <button class="Employee" id="Org-employee">Save</button>
+                <button class="Employee" id="Org-employee">Clear</button> -->
+                <label class="information">
+                    <p><span>Employee Account:-</span><input class="type" id="employeeaccount" type="number" placeholder="Ab1*****" required></p>
+                    <br>
+                    <p><span>Insurance Amount:-</span><input class="type" id="insuranceamount" type="number" placeholder="Number" required></p>
+                    <br>
+                    <p><span>Organization Contribution:-</span><input class="type" id="organizationcontribution" type="number" placeholder="Number" required></p>
+                    <br>
+                    <p><span>Medical Allowance:-</span><input class="type" type="number" id="medicalallowance" placeholder="Number" required></p> 
+                    <input type="submit" value="submit">
+                    <input type="reset" value="clear">
+                </label>
+                </form>
+            </div>
+
+
+
+        </section>
+        <section id="Branch">
+            <div class="container4">
+                <form id="form2">
+                <label for="Employeename" >Employee Name:</label>
+                <input type="text" class="Employee" id="Employeename" placeholder="name" required>
+
+                <label for="employee-id">Employee-ID</label>
+                <input type="number" class="Employee" id="employeeid" placeholder="number" required><br><br>
+
+                <label for="fname">Father Name:</label>
+                <input type="text" class="Employee" id="fname" placeholder="name"><br><br>
+                
+                <label for="functional-Designation" >Functional Designation</label>
+                <input type="text" class="Employee" id="functionalDesignation" placeholder="name"><br><br>
+
+                <label for="add-Bank">Add Employee Bank Branch</label>
+                <input type="number" class="Employee" id="addBank" placeholder="number" required><br><br>
+
+                <input type="submit" value="submit">
+                <input type="reset" value="clear">
+                </div>
+
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+</body>
+
+</html>

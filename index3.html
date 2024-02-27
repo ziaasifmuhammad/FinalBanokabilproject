@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        section {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            border: 2px solid black;
+        }
+
+        .Add-employee {
+            width: 80%;
+            height: 60vh;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Employee {
+            width: 250px;
+            height: 100px;
+            padding: 10px 40px;
+            border-radius: 10px;
+            font-size: 15px;
+            background: linear-gradient(-45deg, white 45%, rgb(58, 241, 241) 0%);
+            border: 1px solid rgb(243, 123, 143);
+            margin: 20px;
+        }
+
+        .Employee {
+            width: 250px;
+            height: 26px;
+            margin-top: 20px;
+            padding: 10px 15px;
+            border: 1px solid black;
+        }
+
+        input {
+            width: 300px;
+            height: 35px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            background: linear-gradient(-45deg, white 30%, rgb(0, 255, 21) 0%);
+        }
+
+        input.Employee {
+            width: 300px;
+            height: 28px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input.Employee:hover {
+            color: rgb(248, 203, 121);
+            background: linear-gradient(-54deg pink, wheat, 0%);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="Add-Employee">
+        <div class="Add-Employee">
+            <form id="form">
+            <h2>Add New Employee</h2>
+            <label for="Employeename" id="Org-employee">Employee Name:</label>
+            <input type="text" class="Employee" id="Org-employee" placeholder="name" required>
+            <label for="employee-id" id="Org-employee">Employee-ID</label>
+            <input type="number" class="Employee" id="Org-employee" placeholder="number" required><br><br>
+
+
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
